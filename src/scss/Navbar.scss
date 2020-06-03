@@ -1,0 +1,24 @@
+.navbarWrapper{
+  background-color: rgb(170, 117, 117);
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  box-sizing: border-box;
+  .navMenu{
+    width: 80px;
+    height: 100%;
+    background-color: rgb(88, 182, 45);
+  }
+  .navSearch{
+    width: 400px;
+    height: 100%;
+    background-color: rgb(88, 182, 45);
+  }
+  .navButton{
+    width: 200px;
+    height: 100%;
+    background-color: rgb(88, 182, 45);
+  }
+}
