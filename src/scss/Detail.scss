@@ -4,17 +4,19 @@ html, body{
 }
 
 .detailwrapper{
-  width: 100vw;
-  height: 100vh;
-  background-color: rgb(214, 109, 109);
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(179, 102, 102);
   display: flex;
   .navDetail{
     width: 100%;
     height: 70px;
-    background-color: rgb(199, 132, 132);
+    // background-color: rgb(199, 132, 132);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 20px;
     .navArrow{
       width: 60px;
       height: 60px;
@@ -30,8 +32,22 @@ html, body{
         width: 45%;
         height: 45%;
       }
-      .listEdit{
+    }
+    .editSection{
+      // width: 200px;
+      // background-color: rgb(108, 163, 142);
+      padding: 0 10px;
+      ul{
         display: flex;
+        padding: 5px 5px;
+        box-sizing: border-box;
+        list-style-type: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        li{
+          padding: 0 10px;
+        }
       }
     }
   }

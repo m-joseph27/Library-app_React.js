@@ -9,10 +9,10 @@ class Detail extends Component   {
         <div className="detailwrapper">
           <div className="navDetail">
             <div className="navArrow"><img src={Arrow} alt="arrow"></img></div>
-            <div className="listEdit">
+            <div className="editSection">
               <ul>
-              <li>Edit</li>
-              <li>Delete</li>
+                <li>Edit</li>
+                <li>Delete</li>
               </ul>
             </div>
           </div>
