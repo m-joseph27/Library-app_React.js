@@ -1,14 +1,11 @@
 import React, {Component} from "react"
 import "../scss/Login.scss"
 import logo from "../assets/img/logo.png"
-// import AddBook from "../components/AddBook"
-import Delete from "../components/Delete"
 
 class Login extends Component{
   render(){
     return(
       <>
-      <Delete/>
         <div className="loginWrapper">
           <div className="imageLogin"></div>
           <div className="formLogin">
