@@ -24,8 +24,12 @@ class Detail extends Component   {
             </div>
           </div>
           <div className="detailBook">
-            <div className="bookType"></div>
-            <div className="titleBook"></div>
+            <div className="bookType">
+            <p>Novel</p>
+            </div>
+            <div className="titleBook">
+              <div className="title"></div>
+            </div>
             <div className="dateBook"></div>
             <div className="descriptionBook"></div>
           </div>
