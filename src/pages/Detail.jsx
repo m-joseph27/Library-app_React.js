@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import "../scss/Detail.scss"
 import Arrow from "../assets/img/left-arrow.png"
+import Book from "../assets/img/dilan.jpeg"
 
 class Detail extends Component   {
   render() {
@@ -16,8 +17,18 @@ class Detail extends Component   {
               </ul>
             </div>
           </div>
-          <div className="jumbotronDetail"></div>
-          <div className="detailBook"></div>
+          <div className="jumbotronDetail">
+            <img src={Book} alt="book"></img>
+            <div className="containBook">
+              <img src={Book} alt="book-detail"></img>
+            </div>
+          </div>
+          <div className="detailBook">
+            <div className="bookType"></div>
+            <div className="titleBook"></div>
+            <div className="dateBook"></div>
+            <div className="descriptionBook"></div>
+          </div>
         </div>
       </>
     )

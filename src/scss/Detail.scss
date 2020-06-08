@@ -5,9 +5,10 @@ html, body{
 
 .detailwrapper{
   width: 100%;
-  height: 1000px;
+  // height: 1000px;
   background-color: rgb(179, 102, 102);
   display: flex;
+  flex-direction: column;
   .navDetail{
     width: 100%;
     height: 70px;
@@ -17,6 +18,8 @@ html, body{
     justify-content: space-between;
     box-sizing: border-box;
     padding: 0 20px;
+    position: relative;
+    z-index: 2;
     .navArrow{
       width: 60px;
       height: 60px;
@@ -50,5 +53,35 @@ html, body{
         }
       }
     }
+  }
+  .jumbotronDetail{
+    background-color: blueviolet;
+    width: 100%;
+    height: 600px;
+    margin-top: -70px;
+    img{
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      object-position: center;
+      position: relative;
+    }
+    .containBook{
+      width: 200px;
+      height: 300px;
+      background-color: #fff;
+      position: absolute;
+      right: 30px;
+      bottom: -20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+      overflow: hidden;
+    }
+  }
+  .detailBook{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(238, 214, 211);
+    display: flex;
   }
 }
