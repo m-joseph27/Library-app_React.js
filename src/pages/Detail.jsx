@@ -28,10 +28,20 @@ class Detail extends Component   {
             <p>Novel</p>
             </div>
             <div className="titleBook">
-              <div className="title"></div>
+              <div className="detailTitle">
+              <p>Dilan 1990</p>
+              </div>
+              <div className="avaliability">
+              <p>Avaliable</p>
+              </div>
             </div>
-            <div className="dateBook"></div>
-            <div className="descriptionBook"></div>
+            <div className="dateBook">
+            <p>30 Juni 2019</p>
+            </div>
+            <div className="descriptionBook">
+              <div className="detaildescription"></div>
+              <div></div>
+            </div>
           </div>
         </div>
       </>
